@@ -6,14 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="shortcut icon" type="image/x-icon" href="assets/">
 </head>
 <body>
     <div class="login">
         <div class="container">
             <div class="screen">
                 <div class="screen__content">
-                    <form class="login__form">
+                    <form class="login__form" method="post" action="autenticar.php">
                         <div class="login__logo">
                                 <img src="assets/logo.png" alt="Logo">
                             </div>
